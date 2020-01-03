@@ -1,7 +1,7 @@
-from common.base import Base
+from liufu_web_auto.common.base import Base
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from pages.bodong_login_page import BodongLogin
+from liufu_web_auto.pages.bodong_login_page import BodongLogin
 import time
 
 class Bongdong_home(Base):
