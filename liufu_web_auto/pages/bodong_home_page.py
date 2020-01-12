@@ -9,8 +9,14 @@ class Bongdong_home(Base):
     loc_search_input = (By.ID,"search-input")
     #搜索按钮
     loc_search_button =(By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-topbar>div>form.topbar-search>input:nth-child(2)")
-    #海量精品漫画
-    loc_more_comic = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-comic>div>span")
+    #收藏按钮
+    loc_save = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div>div>ul>li.collect>div")
+    #我要投稿
+    loc_submit = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div>div>ul>li:nth-child(2)>a")
+    #下载app
+    loc_download_app = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div>div>ul>li.download>a")
+    # #海量精品漫画
+    # loc_more_comic = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-comic>div>span")
     #漫画分类
     loc_lianai = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-comic>div.mod-typebar>div>span")
     loc_hougong = (By.LINK_TEXT,"后宫")
@@ -30,12 +36,13 @@ class Bongdong_home(Base):
     loc_xiaoyuan = (By.LINK_TEXT, "校园")
     loc_all_fenlei = (By.CSS_SELECTOR, "#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-comic>div.mod-typebar>div.typebar-item>a")
     #立即阅读
-    loc_read_button = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-comic>div.mod-comic>div>div.book-hd-cnt>div>div.detail-btn>a")
+    loc_read_button = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-comic>div.mod-comic>div>div.book-hd-cnt>div>div.detail-btn>a>span")
     #海量精品漫画第一部漫画
     loc_first_comic = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-comic>div.mod-comic>ul>li>div")
-    #热门人气新番
-    loc_hot_new_comic = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-anime>div>span")
-    #新番分类
+    # #热门人气新番
+    # loc_hot_new_comic = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-anime>div>span")
+    #热门人气新番第一步动画
+    loc_first_anime = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-anime>div.mod-anime>ul>li>section>a")
     loc_maoxian = (By.LINK_TEXT, "冒险")
     loc_zhandou = (By.LINK_TEXT, "战斗")
     loc_hot_gaoxiao = (By.CSS_SELECTOR, "#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-anime>div.mod-typebar>div>span:nth-child(3)")
@@ -52,237 +59,253 @@ class Bongdong_home(Base):
     loc_qita = (By.LINK_TEXT, "其他")
     loc_hot_all_fenlei = (By.CSS_SELECTOR, "#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-anime>div.mod-typebar>div.typebar-item>a")
     #创作大触云集
-    loc_create =(By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div>span")
-    loc_cosplay = (By.LINK_TEXT, "COSPLAY")
-    loc_dongman = (By.LINK_TEXT, "动漫")
-    loc_zhoubian = (By.LINK_TEXT, "周边")
-    loc_huihua = (By.LINK_TEXT, "绘画")
-    loc_youxi = (By.LINK_TEXT, "游戏")
-    loc_yanshengxiaoshuo = (By.LINK_TEXT, "衍生小说")
-    loc_shenghuo = (By.LINK_TEXT, "生活")
-    loc_shengyin = (By.LINK_TEXT, "声音")
-    loc_modaozushi = (By.LINK_TEXT, "魔道祖师")
-    loc_huyaoxiaohongniang = (By.LINK_TEXT, "狐妖小红娘")
-    loc_wangzherongyao = (By.LINK_TEXT, "王者荣耀")
-    loc_chiji = (By.LINK_TEXT, "吃鸡")
-    loc_yingxionglianmeng = (By.LINK_TEXT, "英雄联盟")
+    # loc_create =(By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div>span")
+    loc_cosplay = (By.CSS_SELECTOR, "#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div.mod-typebar>div>span:nth-child(1)")
+    loc_dongman = (By.CSS_SELECTOR, "#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div.mod-typebar>div>span:nth-child(2)")
+    loc_zhoubian = (By.CSS_SELECTOR, "#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div.mod-typebar>div>span:nth-child(3)")
+    loc_huihua = (By.CSS_SELECTOR, "#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div.mod-typebar>div>span:nth-child(4)")
+    loc_youxi = (By.CSS_SELECTOR, "#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div.mod-typebar>div>span:nth-child(5)")
+    loc_yanshengxiaoshuo = (By.CSS_SELECTOR, "#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div.mod-typebar>div>span:nth-child(6)")
+    loc_shenghuo = (By.CSS_SELECTOR, "#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div.mod-typebar>div>span:nth-child(7)")
+    loc_shengyin = (By.CSS_SELECTOR, "#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div.mod-typebar>div>span:nth-child(8)")
+    loc_modaozushi = (By.CSS_SELECTOR, "#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div.mod-typebar>div>span:nth-child(9)")
+    loc_huyaoxiaohongniang = (By.CSS_SELECTOR, "#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div.mod-typebar>div>span:nth-child(10)")
+    loc_wangzherongyao = (By.CSS_SELECTOR, "#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div.mod-typebar>div>span:nth-child(11)")
+    loc_chiji = (By.CSS_SELECTOR, "#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div.mod-typebar>div>span:nth-child(12)")
     loc_create_all_fenlei = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div.mod-typebar>div.typebar-item>a")
     #查看更多
-    loc_more_button = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div.biz-ugc>div>div>a>span")
+    loc_more_button = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-main-cnt>div.panel-ugc>div.biz-ugc>div>div>a")
+    #绝对领域
+    loc_jueduilingyu = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-main-cnt>div.dialog-ugc>div>div.dialog-bd>div>h3")
 
-    def get_title(self,title_name):
-        title = self.is_title(title_name)
-        return title
+    def text(self):
+        r = self.get_text(self.loc_jueduilingyu)
+        return r
+
+    def save(self):
+        '''点击收藏'''
+        self.click(self.loc_save)
+
+    def submit(self):
+        '''点击我要投稿'''
+        self.click(self.loc_submit)
+
+    def download_app(self):
+        '''点击下载APP'''
+        self.click(self.loc_download_app)
 
     def search(self,search_input="狐妖小红娘"):
+        '''搜索框搜索'''
         self.sendKeys(self.loc_search_input,search_input)
         self.click(self.loc_search_button)
 
-    def more_comic_all(self):
-        self.js_focus(self.loc_more_comic)
-
+    # def more_comic_all(self):
+    #     self.js_focus(self.loc_more_comic)
+    #海量精品漫画
     def lianai(self):
+        '''点击恋爱'''
         self.click(self.loc_lianai)
-        #self.swith_window()
 
     def hougong(self):
+        '''点击后宫'''
         self.click(self.loc_hougong)
-        self.swith_window()
 
     def zhenmei(self):
+        '''点击臻美'''
         self.click(self.loc_zhenmei)
-        self.swith_window()
 
     def chuanyue(self):
+        '''点击穿越'''
         self.click(self.loc_chuanyue)
-        self.swith_window()
 
     def shaonv(self):
+        '''点击少女'''
         self.click(self.loc_shaonv)
-        self.swith_window()
 
     def xuanhuan(self):
+        '''点击玄幻'''
         self.click(self.loc_xuanhuan)
-        self.swith_window()
 
     def gufeng(self):
+        '''点击古风'''
         self.click(self.loc_gufeng)
-        self.swith_window()
 
     def kongbu(self):
+        '''点击恐怖'''
         self.click(self.loc_kongbu)
-        self.swith_window()
 
     def gaoxiao(self):
+        '''点击搞笑'''
         self.click(self.loc_gaoxiao)
-        self.swith_window()
 
     def rexue(self):
+        '''点击热血'''
         self.click(self.loc_rexue)
-        self.swith_window()
 
     def wanjie(self):
+        '''点击完结'''
         self.click(self.loc_wanjie)
-        self.swith_window()
 
     def riman(self):
+        '''点击日漫'''
         self.click(self.loc_riman)
-        self.swith_window()
 
     def guoman(self):
+        '''点击国漫'''
         self.click(self.loc_guoman)
-        self.swith_window()
 
     def hanman(self):
+        '''点击韩漫'''
         self.click(self.loc_hanman)
-        self.swith_window()
 
     def meiman(self):
+        '''点击美漫'''
         self.click(self.loc_meiman)
-        self.swith_window()
 
     def xiaoyuan(self):
+        '''点击校园'''
         self.click(self.loc_xiaoyuan)
-        self.swith_window()
 
     def all_fenlei(self):
+        '''点击全部分类'''
         self.click(self.loc_all_fenlei)
-        self.swith_window()
 
     def read_button(self):
+        '''点击开始阅读按钮'''
         self.click(self.loc_read_button)
-        self.swith_window()
 
     def first_comic(self):
+        '''点击海量精品漫画第一部漫画'''
         self.click(self.loc_first_comic)
-        self.swith_window()
 
-    def hot_comic_all(self):
-        self.js_focus(self.loc_hot_new_comic)
+    # def hot_comic_all(self):
+    #     self.js_focus(self.loc_hot_new_comic)
+    #热门人气新番
+    def first_anime(self):
+        '''点击第一部动画'''
+        self.click(self.loc_first_anime)
 
     def maoxian(self):
+        '''点击冒险'''
         self.click(self.loc_maoxian)
-        self.swith_window()
 
     def zhandou(self):
+        '''点击战斗'''
         self.click(self.loc_zhandou)
-        self.swith_window()
 
     def hot_gaoxiao(self):
+        '''点击搞笑'''
         self.click(self.loc_hot_gaoxiao)
-        self.swith_window()
 
     def jingdian(self):
+        '''点击经典'''
         self.click(self.loc_jingdian)
-        self.swith_window()
 
     def kehuan(self):
+        '''点击科幻'''
         self.click(self.loc_kehuan)
-        self.swith_window()
 
     def hot_xuanhuan(self):
+        '''点击玄幻'''
         self.click(self.loc_hot_xuanhuan)
-        self.swith_window()
 
     def mohuan(self):
+        '''点击魔幻'''
         self.click(self.loc_mohuan)
-        self.swith_window()
 
     def wuxia(self):
+        '''点击武侠'''
         self.click(self.loc_wuxia)
-        self.swith_window()
 
     def jingji(self):
+        '''点击竞技'''
         self.click(self.loc_jingji)
-        self.swith_window()
 
     def hot_lianai(self):
+        '''点击恋爱'''
         self.click(self.loc_hot_lianai)
-        self.swith_window()
 
     def tuili(self):
+        '''点击推理'''
         self.click(self.loc_tuili)
-        self.swith_window()
 
     def zhiyu(self):
+        '''点击治愈'''
         self.click(self.loc_zhiyu)
-        self.swith_window()
 
     def tengxunchupin(self):
+        '''点击腾讯出品'''
         self.click(self.loc_tengxunchupin)
-        self.swith_window()
 
     def qita(self):
+        '''点击其他'''
         self.click(self.loc_qita)
-        self.swith_window()
 
     def hot_all_fenlei(self):
+        '''点击全部分类'''
         self.click(self.loc_hot_all_fenlei)
-        self.swith_window()
 
-    def create_content(self):
-        self.js_focus(self.loc_create)
-
+    # def create_content(self):
+    #     self.js_focus(self.loc_create)
+    # 创作大触云集
     def cosplay(self):
+        '''点击cosplay'''
         self.click(self.loc_cosplay)
-        self.swith_window()
 
     def dongman(self):
+        '''点击动漫'''
         self.click(self.loc_dongman)
-        self.swith_window()
 
     def zhoubian(self):
+        '''点击周边'''
         self.click(self.loc_zhoubian)
-        self.swith_window()
 
     def huihua(self):
+        '''点击绘画'''
         self.click(self.loc_huihua)
-        self.swith_window()
 
     def youxi(self):
+        '''点击游戏'''
         self.click(self.loc_youxi)
-        self.swith_window()
 
     def yanshengxiaoshuo(self):
+        '''点击衍生小说'''
         self.click(self.loc_yanshengxiaoshuo)
-        self.swith_window()
 
     def shenghuo(self):
+        '''点击生活'''
         self.click(self.loc_shenghuo)
-        self.swith_window()
 
     def shengyin(self):
+        '''点击声音'''
         self.click(self.loc_shengyin)
-        self.swith_window()
 
     def modaozushi(self):
+        '''点击魔道祖师'''
         self.click(self.loc_modaozushi)
-        self.swith_window()
 
     def huyaoxiaohongniang(self):
+        '''点击狐妖小红娘'''
         self.click(self.loc_huyaoxiaohongniang)
-        self.swith_window()
 
     def wangzherongyao(self):
+        '''点击王者荣耀'''
         self.click(self.loc_wangzherongyao)
-        self.swith_window()
 
     def chiji(self):
+        '''点击吃鸡'''
         self.click(self.loc_chiji)
-        self.swith_window()
 
-    def yingxionglianmeng(self):
-        self.click(self.loc_yingxionglianmeng)
-        self.swith_window()
+    # def yingxionglianmeng(self):
+    #     self.click(self.loc_yingxionglianmeng)
 
     def create_all_fenlei(self):
+        '''点击全部分类'''
         self.click(self.loc_create_all_fenlei)
-        self.swith_window()
 
     def more_button(self):
-        self.js_roll_down()
+        '''点击查看更多'''
         self.click(self.loc_more_button)
-        self.swith_window()
 
 
 if __name__=='__main__':

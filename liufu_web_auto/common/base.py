@@ -5,6 +5,7 @@ import yagmail
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
+import time
 class Base():
 
     def __init__(self,driver:webdriver.Chrome):
@@ -48,7 +49,8 @@ class Base():
 
     def js_roll_down(self):
         '''滚动条滑动到最底部'''
-        js_down = "window.scrollTo(0,document.body.scrollHeight)"
+        js_down = "var action=document.documentElement.scrollTop=10000"
+        # js_down = "window.scrollTo(0,document.body.scrollHeight)"
         self.driver.execute_script(js_down)
 
     def js_roll_top(self):
@@ -61,10 +63,24 @@ class Base():
         target = self.findelement(locator)
         self.driver.execute_script("arguments[0].scrollIntoView();",target)
 
+    def video_play_js(self,locator):
+        '''开始播放视频'''
+        video = self.findelement(locator)
+        self.driver.execute_script("arguments[0].play()",video)
+
+    def video_stop_js(self,locator):
+        '''暂停视频播放'''
+        video = self.findelement(locator)
+        self.driver.execute_script("arguments[0].pause()", video)
+
     def mouse(self,locator):
         '''鼠标悬停操作'''
         ele = self.findelement(locator)
         ActionChains(self.driver).move_to_element(ele).perform()
+
+    def mouse_click(self,x=0,y=0):
+        '''鼠标左键点击位置，x横坐标 y纵坐标'''
+        ActionChains(self.driver).move_by_offset(x,y).click().perform()
 
     def swith_iframe(self,locator):
         '''切换iframe'''
@@ -76,14 +92,24 @@ class Base():
         self.driver.get(url)
         self.driver.maximize_window()
 
+    def back(self):
+        '''返回上一页'''
+        self.driver.back()
+
+    def forward(self):
+        '''切换到下一页'''
+        self.driver.forward()
+
     def swith_window(self):
         '''切换回首页窗口'''
         self.window = self.driver.window_handles
         self.driver.switch_to.window(self.window[0])
 
-    def swith_not_first_window(self):
+    def swith_new_window(self):
+        '''切换到最新打开的窗口'''
+        time.sleep(3)
         self.all_windows = self.driver.window_handles
-        self.driver.switch_to.window(self.all_windows[1])
+        self.driver.switch_to.window(self.all_windows[-1])
 
     def is_title(self,title):
         '''判断期望title跟实际title是否一致  返回true false'''
