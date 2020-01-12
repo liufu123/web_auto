@@ -19,8 +19,8 @@ class Bodong(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-        # cls.driver.quit()
-        pass
+        cls.driver.quit()
+
 
 
     def sw_window_get_title(self,title_name="最热动画 - 波洞星球boodo"):

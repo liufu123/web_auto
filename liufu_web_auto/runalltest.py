@@ -1,9 +1,9 @@
 import unittest
 # from HTMLTestRunner import HTMLTestRunner
-from HTMLTestRunner_cn import HTMLTestRunner
+from liufu_web_auto.common.HTMLTestRunner_cn import HTMLTestRunner
 import os
 import time
-from common.base import Send_mail
+from liufu_web_auto.common.base import Send_mail
 
 yag = Send_mail()
 case_path = os.path.join(os.getcwd(),'case')
