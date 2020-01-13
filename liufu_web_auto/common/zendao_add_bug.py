@@ -17,7 +17,7 @@ class Zendao_add_bug(Base):
     loc_save = (By.CSS_SELECTOR, '#submit')
 
 
-    def login(self,user="admin",psw="LFjj0918"):
+    def login(self,user="admin",psw="Password"):
         self.open_url('http://127.0.0.1/zentao/user-login.html')
         self.sendKeys(self.loc1,user)
         self.sendKeys(self.loc2,psw)

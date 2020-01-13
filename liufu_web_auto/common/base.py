@@ -185,10 +185,10 @@ class Base():
 class Send_mail():
     '''发送邮件'''
     def send_mail(self,report):
-        yag = yagmail.SMTP(user='13265861735@163.com', password='lfjj0918', host='smtp.163.com')
+        yag = yagmail.SMTP(user='Example@Example.com', password='Password', host='smtp.163.com')
         subject = "自动化测试报告"
         zhengwen = "请查看附件"
-        yag.send('527535141@qq.com', subject, contents=[zhengwen, report])
+        yag.send('Example@Example.com', subject, contents=[zhengwen, report])
         print("邮件发送成功！")
 
 if __name__ == '__main__':
