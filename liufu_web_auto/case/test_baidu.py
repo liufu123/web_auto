@@ -1,7 +1,7 @@
 from selenium import webdriver
 import unittest
 import time
-from liufu_web_auto.common.base import Base
+from common.base import Base
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 c1 = {u'domain': u'.baidu.com',

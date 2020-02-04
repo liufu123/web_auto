@@ -1,8 +1,8 @@
-from liufu_web_auto.common.base import Base
+from common.base import Base
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from liufu_web_auto.pages.bodong_login_page import BodongLogin
-from liufu_web_auto.pages.bodong_home_page import Bongdong_home
+from pages.bodong_login_page import BodongLogin
+from pages.bodong_home_page import Bongdong_home
 import time
 
 #动漫详情页

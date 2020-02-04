@@ -1,9 +1,8 @@
-from liufu_web_auto.common.base import Base
+from common.base import Base
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from liufu_web_auto.pages.bodong_login_page import BodongLogin
+from pages.bodong_login_page import BodongLogin
 import time
-
 class Bongdong_home(Base):
     #搜索框
     loc_search_input = (By.ID,"search-input")

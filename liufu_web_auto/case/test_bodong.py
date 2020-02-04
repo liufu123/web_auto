@@ -1,9 +1,9 @@
 import unittest
 from selenium import webdriver
-from liufu_web_auto.pages.bodong_login_page import BodongLogin
-from liufu_web_auto.pages.bodong_home_page import Bongdong_home
-from liufu_web_auto.pages.bodong_details_page import Bodong_Details
-from liufu_web_auto.pages.bodong_video_details_page import Bodong_video_details
+from pages.bodong_login_page import BodongLogin
+from pages.bodong_home_page import Bongdong_home
+from pages.bodong_details_page import Bodong_Details
+from pages.bodong_video_details_page import Bodong_video_details
 import time
 bodong_url = "https://boodo.qq.com/"
 class Bodong(unittest.TestCase):

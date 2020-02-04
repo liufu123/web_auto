@@ -1,5 +1,4 @@
-from liufu_web_auto.common.base import Base
-from
+from common.base import Base
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time

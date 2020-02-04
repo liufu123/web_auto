@@ -1,7 +1,7 @@
-from liufu_web_auto.common.base import Base
+from common.base import Base
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from liufu_web_auto.pages.zendao_login_page import Zendao_Login
+from pages.zendao_login_page import Zendao_Login
 import os
 pro_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))#项目工程路径E:\liufu-selenium\
 file_name = os.path.join(pro_path,"common","文件上传.exe")

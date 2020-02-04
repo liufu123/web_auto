@@ -1,5 +1,5 @@
 import yagmail
-from liufu_web_auto.common.read_ini import Read_ini
+from common.read_ini import Read_ini
 import os
 import time
 

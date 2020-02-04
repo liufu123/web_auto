@@ -1,7 +1,7 @@
 from selenium import webdriver
 import unittest
-from liufu_web_auto.pages.zendao_login_page import Zendao_Login
-from liufu_web_auto.pages.zendao_addbug_page import Add_bug
+from pages.zendao_login_page import Zendao_Login
+from pages.zendao_addbug_page import Add_bug
 
 class Login(unittest.TestCase):
     @classmethod

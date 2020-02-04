@@ -1,10 +1,8 @@
-
 import unittest
-# from HTMLTestRunner import HTMLTestRunner
-from liufu_web_auto.common.HTMLTestRunner_cn import HTMLTestRunner
+from common.HTMLTestRunner_cn import HTMLTestRunner
 import os
 import time
-
+from common.send_mail import Send_mail
 
 
 yag = Send_mail()
