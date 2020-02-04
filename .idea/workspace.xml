@@ -2,450 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ded6a9f0-082c-41f8-897c-61bb2e21dcc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/github1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/read_ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/read_ini.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/send_mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/send_mail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/.idea/liufu-selenium.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/case/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/case/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/case/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/case/test_baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_baidu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/case/test_bodong.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_bodong.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/case/test_zendao.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_zendao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/common/HTMLTestRunner_cn.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/HTMLTestRunner_cn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/common/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/common/logger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/common/readExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/readExcel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/common/read_ini.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/common/send_mail.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/common/testdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/common/testdata.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/common/zendao_add_bug.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/zendao_add_bug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/common/文件上传.exe" beforeDir="false" afterPath="$PROJECT_DIR$/common/文件上传.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/error_pic/2019-08-08 20_21_06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/error_pic/2019-08-08 20_21_06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/error_pic/2019-08-08 20_24_20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/error_pic/2019-08-08 20_24_20.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/error_pic/2019-08-08 20_52_32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/error_pic/2019-08-08 20_52_32.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/error_pic/2019-08-12 20_56_44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/error_pic/2019-08-12 20_56_44.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/error_pic/2019-08-12 21_00_25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/error_pic/2019-08-12 21_00_25.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/error_pic/2019-08-12 21_03_30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/error_pic/2019-08-12 21_03_30.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/error_pic/2019-08-12 21_12_44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/error_pic/2019-08-12 21_12_44.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/error_pic/2019-08-15 20_13_42.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/error_pic/2019-08-15 20_13_42.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/error_pic/2019-08-15 20_17_22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/error_pic/2019-08-15 20_17_22.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/error_pic/2019-08-15 20_27_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/error_pic/2019-08-15 20_27_01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/error_pic/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/error_pic/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/pages/bodong_details_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bodong_details_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/pages/bodong_home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bodong_home_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/pages/bodong_login_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/pages/bodong_video_details_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bodong_video_details_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/pages/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/pages/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/pages/zendao_addbug_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/zendao_addbug_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/pages/zendao_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/zendao_login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2019-08-08 20_03_40result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2019-08-08 20_03_40result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2019-08-08 20_06_29result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2019-08-08 20_06_29result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2019-08-08 20_51_54result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2019-08-08 20_51_54result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2019-08-08 20_59_28result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2019-08-08 20_59_28result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2019-08-08 21_06_34result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2019-08-08 21_06_34result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2019-08-12 20_56_23result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2019-08-12 20_56_23result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2019-08-12 21_00_05result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2019-08-12 21_00_05result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2019-08-12 21_03_07result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2019-08-12 21_03_07result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2019-08-12 21_12_22result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2019-08-12 21_12_22result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2019-08-15 20_12_07result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2019-08-15 20_12_07result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2019-08-15 20_12_58result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2019-08-15 20_12_58result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2019-08-15 20_16_49result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2019-08-15 20_16_49result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2019-08-15 20_26_28result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2019-08-15 20_26_28result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2020-01-12 21_24_16result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2020-01-12 21_24_16result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2020-02-04 14_05_22result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2020-02-04 14_12_58result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2020-02-04 14_36_22result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2020-02-04 15_00_03result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/2020_02_04.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/report/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/myreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/myreport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/report/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/runalltest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/11.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenum_lianxi/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/baidu_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenum_lianxi/baidu_setting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/iframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenum_lianxi/iframe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/login_baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenum_lianxi/login_baidu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/login_cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenum_lianxi/login_cookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/swtich_handle.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenum_lianxi/swtich_handle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenum_lianxi/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/test_baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenum_lianxi/test_baidu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/video_play.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenum_lianxi/video_play.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/dependency_links.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/entry_points.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/not-zip-safe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/not-zip-safe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/requires.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/EGG-INFO/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/basecommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/basecommand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/baseparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/baseparser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/build_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/build_env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/cache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/cmdoptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/cmdoptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/completion.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/completion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/configuration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/download.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/download.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/freeze.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/freeze.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/hash.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/hash.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/help.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/help.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/install.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/install.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/show.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/show.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/uninstall.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/uninstall.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/commands/wheel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/configuration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/download.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/download.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/locations.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/locations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/models/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/models/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/operations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/operations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/operations/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/operations/check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/operations/freeze.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/operations/freeze.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/operations/prepare.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/operations/prepare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/pep425tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/pep425tags.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/req/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/req/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/req/req_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/req/req_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/req/req_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/req/req_install.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/req/req_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/req/req_set.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/req/req_uninstall.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/req/req_uninstall.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/resolve.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/resolve.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/status_codes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/status_codes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/appdirs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/appdirs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/deprecation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/deprecation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/encoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/encoding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/filesystem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/glibc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/glibc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/hashes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/hashes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/logging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/misc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/outdated.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/outdated.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/packaging.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/packaging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/setuptools_build.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/setuptools_build.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/temp_dir.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/temp_dir.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/typing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/typing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/utils/ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/bazaar.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/bazaar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/git.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/git.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/mercurial.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/mercurial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/subversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/vcs/subversion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_internal/wheel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/appdirs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/appdirs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/_cmd.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/_cmd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/adapter.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/adapter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/cache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/caches/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/caches/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/caches/file_cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/caches/file_cache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/caches/redis_cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/caches/redis_cache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/filewrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/filewrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/heuristics.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/heuristics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/serialize.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/serialize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/cachecontrol/wrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/certifi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/certifi/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/certifi/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/certifi/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/certifi/cacert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/certifi/cacert.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/certifi/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/certifi/core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/big5freq.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/big5freq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/big5prober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/big5prober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/chardistribution.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/chardistribution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/charsetgroupprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/charsetgroupprober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/charsetprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/charsetprober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/cli/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/cli/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/cli/chardetect.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/cli/chardetect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/codingstatemachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/codingstatemachine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/cp949prober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/cp949prober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/enums.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/enums.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/escprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/escprober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/escsm.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/escsm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/eucjpprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/eucjpprober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/euckrfreq.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/euckrfreq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/euckrprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/euckrprober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/euctwfreq.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/euctwfreq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/euctwprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/euctwprober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/gb2312freq.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/gb2312freq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/gb2312prober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/gb2312prober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/hebrewprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/hebrewprober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/jisfreq.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/jisfreq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/jpcntx.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/jpcntx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langbulgarianmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langbulgarianmodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langcyrillicmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langcyrillicmodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langgreekmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langgreekmodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langhebrewmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langhebrewmodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langhungarianmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langhungarianmodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langthaimodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langthaimodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langturkishmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/langturkishmodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/latin1prober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/latin1prober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/mbcharsetprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/mbcharsetprober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/mbcsgroupprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/mbcsgroupprober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/mbcssm.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/mbcssm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/sbcharsetprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/sbcharsetprober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/sbcsgroupprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/sbcsgroupprober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/sjisprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/sjisprober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/universaldetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/universaldetector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/utf8prober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/utf8prober.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/chardet/version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/ansi.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/ansi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/ansitowin32.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/ansitowin32.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/initialise.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/initialise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/win32.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/win32.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/winterm.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/colorama/winterm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/misc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/shutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/shutil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/sysconfig.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/sysconfig.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/sysconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/sysconfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/tarfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/_backport/tarfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/manifest.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/manifest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/markers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/markers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/metadata.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/metadata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/resources.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/scripts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/t32.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/t32.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/t64.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/t64.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/w32.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/w32.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/w64.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/w64.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distlib/wheel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distro.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/distro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_ihatexml.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_ihatexml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_inputstream.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_inputstream.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_tokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_tokenizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_trie/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_trie/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_trie/_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_trie/_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_trie/datrie.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_trie/datrie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_trie/py.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_trie/py.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/alphabeticalattributes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/alphabeticalattributes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/inject_meta_charset.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/lint.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/lint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/optionaltags.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/optionaltags.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/sanitizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/sanitizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/whitespace.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/filters/whitespace.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/html5parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/html5parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treeadapters/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treeadapters/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treeadapters/genshi.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treeadapters/genshi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treeadapters/sax.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treeadapters/sax.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treebuilders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treebuilders/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treebuilders/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treebuilders/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treebuilders/dom.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treebuilders/dom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treebuilders/etree.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treebuilders/etree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treebuilders/etree_lxml.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/dom.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/dom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/etree.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/etree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/etree_lxml.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/etree_lxml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/genshi.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/html5lib/treewalkers/genshi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/codec.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/codec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/idnadata.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/idnadata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/intranges.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/intranges.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/package_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/package_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/uts46data.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/idna/uts46data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/ipaddress.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/ipaddress.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/linklockfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/linklockfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/mkdirlockfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/mkdirlockfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/pidlockfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/pidlockfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/sqlitelockfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/sqlitelockfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/symlinklockfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/lockfile/symlinklockfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/msgpack/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/msgpack/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/msgpack/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/msgpack/_version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/msgpack/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/msgpack/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/msgpack/fallback.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/msgpack/fallback.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/__about__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/__about__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/_compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/_structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/_structures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/markers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/markers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/requirements.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/requirements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/specifiers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/specifiers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/packaging/version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pkg_resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pkg_resources/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pkg_resources/py31compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pkg_resources/py31compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/progress/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/progress/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/progress/bar.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/progress/bar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/progress/counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/progress/counter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/progress/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/progress/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/progress/spinner.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/progress/spinner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pyparsing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pytoml/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pytoml/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pytoml/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pytoml/core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pytoml/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pytoml/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pytoml/writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/pytoml/writer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/__version__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/__version__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/_internal_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/_internal_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/adapters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/adapters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/certs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/certs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/cookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/help.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/help.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/hooks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/packages.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/packages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/sessions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/sessions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/status_codes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/status_codes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/structures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/requests/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/retrying.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/retrying.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/six.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/six.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/_collections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/connectionpool.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/connectionpool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/_securetransport/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/_securetransport/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/appengine.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/appengine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/ntlmpool.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/ntlmpool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/pyopenssl.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/pyopenssl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/securetransport.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/securetransport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/socks.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/contrib/socks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/fields.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/filepost.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/filepost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/backports/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/backports/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/backports/makefile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/backports/makefile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/ordered_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/ordered_dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/six.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/six.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/poolmanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/poolmanager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/response.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/response.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/retry.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/retry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/selectors.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/selectors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/ssl_.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/ssl_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/timeout.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/timeout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/wait.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/urllib3/util/wait.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/webencodings/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/webencodings/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/webencodings/labels.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/webencodings/labels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/webencodings/mklabels.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/webencodings/mklabels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/webencodings/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/webencodings/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/webencodings/x_user_defined.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.6.egg/pip/_vendor/webencodings/x_user_defined.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/setuptools-39.1.0-py3.6.egg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-39.1.0-py3.6.egg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/site-packages/setuptools.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Lib/tcl8.6/init.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/tcl8.6/init.tcl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/Activate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_asyncio.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_asyncio.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_bz2.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_bz2.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_ctypes.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_ctypes.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_ctypes_test.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_ctypes_test.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_decimal.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_decimal.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_elementtree.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_elementtree.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_hashlib.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_hashlib.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_lzma.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_lzma.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_msi.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_msi.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_multiprocessing.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_multiprocessing.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_overlapped.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_overlapped.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_socket.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_socket.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_sqlite3.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_sqlite3.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_ssl.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_ssl.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_testbuffer.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_testbuffer.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_testcapi.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_testcapi.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_testconsole.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_testconsole.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_testimportmultiple.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_testimportmultiple.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_testmultiphase.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_testmultiphase.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/_tkinter.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/_tkinter.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/deactivate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/easy_install-3.6-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-3.6-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/easy_install-3.6.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-3.6.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/easy_install-3.6.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-3.6.exe.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/easy_install-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/easy_install.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/easy_install.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install.exe.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/pip-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/pip.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip.exe.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/pip3-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/pip3.6-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.6-script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/pip3.6.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.6.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/pip3.6.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.6.exe.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/pip3.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.exe.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/pyexpat.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pyexpat.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/python.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/python3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/python3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/python36.dll" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/python36.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/pythonw.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/select.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/select.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/sqlite3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/sqlite3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/tcl86t.dll" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/tcl86t.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/tk86t.dll" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/tk86t.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/unicodedata.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/unicodedata.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/vcruntime140.dll" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/vcruntime140.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/Scripts/winsound.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/winsound.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/bodong_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bodong_login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/2020-02-04 14_05_22result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2020-02-04 14_05_22result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/2020-02-04 14_12_58result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2020-02-04 14_12_58result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/2020-02-04 14_36_22result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2020-02-04 14_36_22result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/2020-02-04 15_00_03result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/2020-02-04 15_00_03result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/2020_02_04.log" beforeDir="false" afterPath="$PROJECT_DIR$/report/2020_02_04.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runalltest.py" beforeDir="false" afterPath="$PROJECT_DIR$/runalltest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenum_lianxi/11.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenum_lianxi/11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test_baidu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test_bodong.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test_zendao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/HTMLTestRunner_cn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/readExcel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/read_ini.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/send_mail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/testdata.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/zendao_add_bug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/文件上传.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pic/2019-08-08 20_21_06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pic/2019-08-08 20_24_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pic/2019-08-08 20_52_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pic/2019-08-12 20_56_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pic/2019-08-12 21_00_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pic/2019-08-12 21_03_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pic/2019-08-12 21_12_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pic/2019-08-15 20_13_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pic/2019-08-15 20_17_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pic/2019-08-15 20_27_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pic/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/liufu_web_auto/pages/bodong_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/liufu_web_auto/pages/bodong_login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liufu_web_auto/runalltest.py" beforeDir="false" afterPath="$PROJECT_DIR$/liufu_web_auto/runalltest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/bodong_details_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/bodong_home_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/bodong_login_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/bodong_video_details_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/zendao_addbug_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/zendao_login_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019-08-08 20_03_40result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019-08-08 20_06_29result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019-08-08 20_51_54result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019-08-08 20_59_28result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019-08-08 21_06_34result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019-08-12 20_56_23result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019-08-12 21_00_05result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019-08-12 21_03_07result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019-08-12 21_12_22result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019-08-15 20_12_07result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019-08-15 20_12_58result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019-08-15 20_16_49result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019-08-15 20_26_28result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2020-01-12 21_24_16result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2020-02-04 14_05_22result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2020-02-04 14_12_58result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2020-02-04 14_36_22result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2020-02-04 15_00_03result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2020_02_04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/myreport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runalltest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenum_lianxi/11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenum_lianxi/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenum_lianxi/baidu_setting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenum_lianxi/iframe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenum_lianxi/login_baidu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenum_lianxi/login_cookies.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenum_lianxi/swtich_handle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenum_lianxi/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenum_lianxi/test_baidu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenum_lianxi/video_play.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -484,22 +112,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liufu_web_auto/config/bodong.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="338">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runalltest.py">
+        <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3172">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding>
+                <element signature="e#1#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/logger.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
               <folding>
-                <element signature="e#42#57#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -546,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-35" />
     <option name="y" value="56" />
     <option name="width" value="1346" />
@@ -560,13 +199,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="github1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="github1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github1" type="462c0819:PsiDirectoryNode" />
+              <item name="liufu_web_auto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="github1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github1" type="462c0819:PsiDirectoryNode" />
+              <item name="liufu_web_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="github1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github1" type="462c0819:PsiDirectoryNode" />
+              <item name="liufu_web_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/liufu_web_auto" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -713,7 +379,11 @@
       <workItem from="1578831842765" duration="4697000" />
       <workItem from="1579263516882" duration="13025000" />
       <workItem from="1579318514894" duration="1841000" />
-      <workItem from="1580785469558" duration="14138000" />
+      <workItem from="1580785469558" duration="14788000" />
+      <workItem from="1580805117700" duration="22000" />
+      <workItem from="1580805147829" duration="14000" />
+      <workItem from="1580805600265" duration="325000" />
+      <workItem from="1580807179970" duration="119000" />
     </task>
     <servers />
   </component>
@@ -750,17 +420,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100898000" />
+    <option name="totallyTimeSpent" value="102028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18835099" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20045386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32879046" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43781942" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.097103916" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -783,46 +453,13 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/zendao_addbug_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/zendao_login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/zendao_addbug_page.py" />
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/zendao_login_page.py" />
     <entry file="file://$PROJECT_DIR$/liufu_web_auto/case/test_chandao.py" />
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/case/test_baidu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1872">
-          <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/case/test_baidu.py" />
     <entry file="file://$PROJECT_DIR$/liufu_web_auto/case/test_baidu_setting.py" />
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/case/test_zendao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/video_play.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/case/test_zendao.py" />
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/video_play.py" />
     <entry file="file://$PROJECT_DIR$/../liufu-selenium/runalltest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -838,141 +475,45 @@
         <state relative-caret-position="-5460" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_home_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="326" selection-start-line="326" selection-end-line="326" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_video_details_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_details_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="138" column="14" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_home_page.py" />
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_video_details_page.py" />
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_details_page.py" />
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/11.py" />
     <entry file="file://$PROJECT_DIR$/liufu_web_auto/config/BodongElement.txt" />
     <entry file="file://$PROJECT_DIR$/liufu_web_auto/config/BodongElement" />
     <entry file="file://$PROJECT_DIR$/liufu_web_auto/config/111" />
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/report/2020_02_04.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/logger.py">
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/report/2020_02_04.log" />
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/report/2020-02-04 14_36_22result.html" />
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/case/test_bodong.py" />
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_login_page.py" />
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/runalltest.py" />
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/send_mail.py" />
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/read_ini.py" />
+    <entry file="file://$PROJECT_DIR$/runalltest.py" />
+    <entry file="file://$PROJECT_DIR$/common/base.py" />
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/config/bodong.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1193">
-          <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="338">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="212" selection-start-line="212" selection-end-line="215" selection-end-column="12" />
+        <state relative-caret-position="-3172">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#1#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/report/2020-02-04 14_36_22result.html">
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/case/test_bodong.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11823">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/runalltest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/send_mail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state>
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/read_ini.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runalltest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#42#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/config/bodong.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
