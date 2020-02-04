@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ded6a9f0-082c-41f8-897c-61bb2e21dcc2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/liufu_web_auto/runalltest.py" beforeDir="false" afterPath="$PROJECT_DIR$/liufu_web_auto/runalltest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,26 +12,31 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_19.coverage" NAME="Unittests for test_bodong.Bodong.test_19 Coverage Results" MODIFIED="1578722948260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
-    <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_67.coverage" NAME="Unittests for test_bodong.Bodong.test_67 Coverage Results" MODIFIED="1578820954217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
+    <SUITE FILE_PATH="coverage/github1$read_ini.coverage" NAME="read_ini Coverage Results" MODIFIED="1580798808862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/common" />
+    <SUITE FILE_PATH="coverage/github1$logger.coverage" NAME="logger Coverage Results" MODIFIED="1580794609904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/common" />
     <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong.coverage" NAME="Unittests for test_bodong.Bodong Coverage Results" MODIFIED="1578202860503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
-    <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_20.coverage" NAME="Unittests for test_bodong.Bodong.test_20 Coverage Results" MODIFIED="1578216590050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
-    <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_03.coverage" NAME="Unittests for test_bodong.Bodong.test_03 Coverage Results" MODIFIED="1578721949588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
     <SUITE FILE_PATH="coverage/github1$video_play.coverage" NAME="video_play Coverage Results" MODIFIED="1578815356582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/selenum_lianxi" />
     <SUITE FILE_PATH="coverage/github1$Unittests_in_test_bodong_py.coverage" NAME="Unittests in test_bodong.py Coverage Results" MODIFIED="1578833197932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
-    <SUITE FILE_PATH="coverage/github1$runalltest.coverage" NAME="runalltest Coverage Results" MODIFIED="1578835455798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto" />
+    <SUITE FILE_PATH="coverage/github1$bodong_login_page.coverage" NAME="bodong_login_page Coverage Results" MODIFIED="1580796734534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/pages" />
+    <SUITE FILE_PATH="coverage/github1$send_mail.coverage" NAME="send_mail Coverage Results" MODIFIED="1580800981411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/common" />
     <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_54.coverage" NAME="Unittests for test_bodong.Bodong.test_54 Coverage Results" MODIFIED="1578713647462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
     <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_51.coverage" NAME="Unittests for test_bodong.Bodong.test_51 Coverage Results" MODIFIED="1578490206916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
     <SUITE FILE_PATH="coverage/github1$11.coverage" NAME="11 Coverage Results" MODIFIED="1578406987296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/selenum_lianxi" />
     <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_08.coverage" NAME="Unittests for test_bodong.Bodong.test_08 Coverage Results" MODIFIED="1578721055037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
-    <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_56.coverage" NAME="Unittests for test_bodong.Bodong.test_56 Coverage Results" MODIFIED="1578711917725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
-    <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_59.coverage" NAME="Unittests for test_bodong.Bodong.test_59 Coverage Results" MODIFIED="1578721248549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
-    <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_50.coverage" NAME="Unittests for test_bodong.Bodong.test_50 Coverage Results" MODIFIED="1578727835064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
     <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_69.coverage" NAME="Unittests for test_bodong.Bodong.test_69 Coverage Results" MODIFIED="1578822097778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
     <SUITE FILE_PATH="coverage/github1$bodong_details_page.coverage" NAME="bodong_details_page Coverage Results" MODIFIED="1578201341818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/pages" />
     <SUITE FILE_PATH="coverage/github1$bodong_video_details_page__1_.coverage" NAME="bodong_video_details_page (1) Coverage Results" MODIFIED="1578816289311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/pages" />
     <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_52.coverage" NAME="Unittests for test_bodong.Bodong.test_52 Coverage Results" MODIFIED="1578715546353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
     <SUITE FILE_PATH="coverage/github1$bodong_video_details_page.coverage" NAME="bodong_video_details_page Coverage Results" MODIFIED="1578809346202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/pages" />
     <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_02.coverage" NAME="Unittests for test_bodong.Bodong.test_02 Coverage Results" MODIFIED="1578203784745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
+    <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_67.coverage" NAME="Unittests for test_bodong.Bodong.test_67 Coverage Results" MODIFIED="1578820954217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
+    <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_20.coverage" NAME="Unittests for test_bodong.Bodong.test_20 Coverage Results" MODIFIED="1578216590050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
+    <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_03.coverage" NAME="Unittests for test_bodong.Bodong.test_03 Coverage Results" MODIFIED="1578721949588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
+    <SUITE FILE_PATH="coverage/github1$runalltest.coverage" NAME="runalltest Coverage Results" MODIFIED="1580799603090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto" />
+    <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_56.coverage" NAME="Unittests for test_bodong.Bodong.test_56 Coverage Results" MODIFIED="1578711917725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
+    <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_59.coverage" NAME="Unittests for test_bodong.Bodong.test_59 Coverage Results" MODIFIED="1578721248549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
+    <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_50.coverage" NAME="Unittests for test_bodong.Bodong.test_50 Coverage Results" MODIFIED="1578727835064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
+    <SUITE FILE_PATH="coverage/github1$base.coverage" NAME="base Coverage Results" MODIFIED="1579318567122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/common" />
     <SUITE FILE_PATH="coverage/github1$Unittests_for_test_bodong_Bodong_test_62.coverage" NAME="Unittests for test_bodong.Bodong.test_62 Coverage Results" MODIFIED="1578818338903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liufu_web_auto/case" />
   </component>
   <component name="FileEditorManager">
@@ -39,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liufu_web_auto/case/test_bodong.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="487" lean-forward="true" selection-start-line="487" selection-end-line="487" />
+            <state relative-caret-position="-11823">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -49,10 +54,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_details_page.py">
+        <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1118">
-              <caret line="138" column="14" lean-forward="true" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+            <state relative-caret-position="275">
+              <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -61,22 +66,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_video_details_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/liufu_web_auto/runalltest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="118">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -87,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3039">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="289">
+              <caret line="212" selection-start-line="212" selection-end-line="215" selection-end-column="12" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -97,12 +90,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_home_page.py">
+        <entry file="file://$PROJECT_DIR$/liufu_web_auto/config/bodong.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8476">
-              <caret line="326" lean-forward="true" selection-start-line="326" selection-end-line="326" />
+            <state relative-caret-position="52">
+              <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/send_mail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-26">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/read_ini.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-194">
+              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,22 +142,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/liufu_web_auto/pages/bodong_login_page.py" />
         <option value="$PROJECT_DIR$/liufu_web_auto/pages/zendao_login_page.py" />
         <option value="$PROJECT_DIR$/liufu_web_auto/pages/zendao_addbug_page.py" />
         <option value="$PROJECT_DIR$/liufu_web_auto/case/test_zendao.py" />
         <option value="$PROJECT_DIR$/liufu_web_auto/case/test_baidu.py" />
-        <option value="$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/11.py" />
         <option value="$PROJECT_DIR$/liufu_web_auto/pages/bodong_home_page.py" />
-        <option value="$PROJECT_DIR$/liufu_web_auto/common/base.py" />
         <option value="$PROJECT_DIR$/liufu_web_auto/pages/bodong_video_details_page.py" />
-        <option value="$PROJECT_DIR$/liufu_web_auto/case/test_bodong.py" />
         <option value="$PROJECT_DIR$/liufu_web_auto/pages/bodong_details_page.py" />
+        <option value="$PROJECT_DIR$/liufu_web_auto/case/test_bodong.py" />
+        <option value="$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/11.py" />
+        <option value="$PROJECT_DIR$/liufu_web_auto/config/BodongElement.ini" />
+        <option value="$PROJECT_DIR$/liufu_web_auto/config/BodongElement.txt" />
+        <option value="$PROJECT_DIR$/liufu_web_auto/common/logger.py" />
+        <option value="$PROJECT_DIR$/liufu_web_auto/common/base.py" />
+        <option value="$PROJECT_DIR$/liufu_web_auto/config/bodong.ini" />
+        <option value="$PROJECT_DIR$/liufu_web_auto/pages/bodong_login_page.py" />
+        <option value="$PROJECT_DIR$/liufu_web_auto/common/read_ini.py" />
+        <option value="$PROJECT_DIR$/liufu_web_auto/common/send_mail.py" />
         <option value="$PROJECT_DIR$/liufu_web_auto/runalltest.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-35" />
     <option name="y" value="56" />
     <option name="width" value="1346" />
@@ -157,7 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,6 +199,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,7 +226,73 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.runalltest">
+  <component name="RunManager" selected="Python.send_mail">
+    <configuration name="bodong_login_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="github1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/liufu_web_auto/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/liufu_web_auto/pages/bodong_login_page.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="github1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/liufu_web_auto/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/liufu_web_auto/common/logger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="read_ini" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="github1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/liufu_web_auto/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/liufu_web_auto/common/read_ini.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="runalltest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="github1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,73 +315,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_bodong.Bodong.test_62" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="send_mail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="github1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/liufu_web_auto/case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/liufu_web_auto/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_bodong.Bodong.test_62&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_bodong.Bodong.test_67" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="github1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/liufu_web_auto/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_bodong.Bodong.test_67&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_bodong.Bodong.test_69" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="github1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/liufu_web_auto/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_bodong.Bodong.test_69&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_bodong.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="github1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/liufu_web_auto/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/liufu_web_auto/case/test_bodong.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/liufu_web_auto/common/send_mail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.send_mail" />
         <item itemvalue="Python.runalltest" />
-        <item itemvalue="Python tests.Unittests in test_bodong.py" />
-        <item itemvalue="Python tests.Unittests for test_bodong.Bodong.test_69" />
-        <item itemvalue="Python tests.Unittests for test_bodong.Bodong.test_67" />
-        <item itemvalue="Python tests.Unittests for test_bodong.Bodong.test_62" />
+        <item itemvalue="Python.read_ini" />
+        <item itemvalue="Python.bodong_login_page" />
+        <item itemvalue="Python.logger" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +371,10 @@
       <workItem from="1578726994558" duration="1453000" />
       <workItem from="1578746717043" duration="5636000" />
       <workItem from="1578806346339" duration="15956000" />
-      <workItem from="1578831842765" duration="3868000" />
+      <workItem from="1578831842765" duration="4697000" />
+      <workItem from="1579263516882" duration="13025000" />
+      <workItem from="1579318514894" duration="1841000" />
+      <workItem from="1580785469558" duration="13806000" />
     </task>
     <servers />
   </component>
@@ -360,18 +411,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71065000" />
+    <option name="totallyTimeSpent" value="100566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1482602" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18835099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3935264" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32879046" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40374786" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -394,16 +445,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/zendao_addbug_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -437,70 +478,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_home_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8476">
-          <caret line="326" lean-forward="true" selection-start-line="326" selection-end-line="326" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3039">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/case/test_bodong.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="487" lean-forward="true" selection-start-line="487" selection-end-line="487" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_details_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1118">
-          <caret line="138" column="14" lean-forward="true" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/video_play.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="57" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_video_details_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -519,12 +500,130 @@
         <state relative-caret-position="-5460" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liufu_web_auto/runalltest.py">
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_home_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="485">
+          <caret line="326" selection-start-line="326" selection-end-line="326" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_video_details_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_details_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="138" column="14" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/selenum_lianxi/11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="6" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/config/BodongElement.txt" />
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/config/BodongElement" />
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/config/111" />
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/report/2020_02_04.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1193">
+          <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="212" selection-start-line="212" selection-end-line="215" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/report/2020-02-04 14_36_22result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/case/test_bodong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11823">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/pages/bodong_login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/config/bodong.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/runalltest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/send_mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liufu_web_auto/common/read_ini.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-194">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
