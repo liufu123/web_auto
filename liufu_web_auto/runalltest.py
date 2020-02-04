@@ -3,7 +3,8 @@ import unittest
 from liufu_web_auto.common.HTMLTestRunner_cn import HTMLTestRunner
 import os
 import time
-from liufu_web_auto.common.base import Send_mail
+from liufu_web_auto.common.send_mail import Send_mail
+
 
 yag = Send_mail()
 case_path = os.path.join(os.getcwd(),'case')

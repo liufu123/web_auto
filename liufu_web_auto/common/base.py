@@ -6,6 +6,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 import time
+import configparser
+import os
 class Base():
 
     def __init__(self,driver:webdriver.Chrome):
@@ -180,22 +182,35 @@ class Base():
         ele = self.findelement(locator)
         Select(ele).select_by_visible_text(text)
 
+# class Read_ini():
+#     def __init__(self,file_name=""):
+#         if file_name == "":
+#             file_name = os.path.dirname(os.path.abspath('.')) + '/config/bodong.ini'
+#         self.ct = self.loading_ini(file_name)
+#
+#     def loading_ini(self,file_name):
+#         ct = configparser.ConfigParser()
+#         ct.read(file_name)
+#         return ct
+#
+#     def get_value(self,element,key):
+#         data = self.ct.get(element,key)
+#         return tuple(data.split(','))
 
 
-class Send_mail():
-    '''发送邮件'''
-    def send_mail(self,report):
-        yag = yagmail.SMTP(user='13265861735@163.com', password='lfjj0918', host='smtp.163.com')
-        subject = "自动化测试报告"
-        zhengwen = "请查看附件"
-        yag.send('527535141@qq.com', subject, contents=[zhengwen, report])
-        print("邮件发送成功！")
+
+
+
+# class Send_mail():
+#     '''发送邮件'''
+#     def send_mail(self,report):
+#         yag = yagmail.SMTP(user='13265861735@163.com', password='lfjj0918', host='smtp.163.com')
+#         subject = "自动化测试报告"
+#         zhengwen = "请查看附件"
+#         yag.send('527535141@qq.com', subject, contents=[zhengwen, report])
+#         print("邮件发送成功！")
 
 if __name__ == '__main__':
-    driver = webdriver.Chrome()
-    driver.get('https://boodo.qq.com/')
-    a = Base(driver)
-    b = BodongLogin(driver)
-    b.login()
-    r = a.is_title("波洞星球boodo - 腾讯动漫画内容互动社区")
-    print(r)
+    ct = Read_ini()
+    s = ct.get_value('Bodong_login','loc_QQlogin')
+    print(s)
