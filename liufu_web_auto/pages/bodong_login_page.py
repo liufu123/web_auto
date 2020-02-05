@@ -2,6 +2,7 @@ from common.base import Base
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
+from common.read_ini import Read_ini
 bodong_url = "https://boodo.qq.com/"
 class BodongLogin(Base):
     loc_login = (By.CSS_SELECTOR,'div.cnt>ul.topbar-nav>li:nth-child(5)>div')
@@ -13,6 +14,9 @@ class BodongLogin(Base):
     loc_login_button = (By.CSS_SELECTOR, '#login_button')
     loc_qqtouxiang = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div>div>ul>li.login-avatar>div>img")
     loc_get_username = (By.CSS_SELECTOR,'#app>div>div.pc-main-wrap>div>div>ul>li.login-avatar>div>div>p')
+    config = Read_ini()
+    bd_username = config.get_value('Bodong_account','user')
+    bd_psw = config.get_value('Bodong_account','psw')
 
 
     def login_ready(self):
@@ -23,10 +27,10 @@ class BodongLogin(Base):
         time.sleep(1)
         self.click(self.loc_user_psw)
 
-    def input_username(self,username='2500000095'):
+    def input_username(self,username=bd_username):
         self.sendKeys(self.loc_login_username,username)
 
-    def input_psw(self,psw='456789'):
+    def input_psw(self,psw=bd_psw):
         self.sendKeys(self.loc_login_password, psw)
 
     def click_login_button(self):

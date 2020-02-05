@@ -33,8 +33,8 @@ class Bodong_video_details(Base):
     loc_more_recommend = (By.CSS_SELECTOR,"#app>div>div.pc-main-wrap>div.pc-main-cnt>div.pc-anime-right>div.panel-recommend>div.mod-recommend-list>div>a")
 
     def video_to_stop(self):
-        '''播放10s后暂停播放'''
-        time.sleep(10)
+        '''播放15s后暂停播放'''
+        time.sleep(15)
         self.video_stop_js(self.loc_video)
 
     def video_to_play(self):
@@ -115,4 +115,4 @@ if __name__=='__main__':
     b.first_anime()
     c.swith_new_window()
     c.video_to_stop()
-    c.video_to_play()
+

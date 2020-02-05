@@ -2,10 +2,10 @@ import unittest
 from common.HTMLTestRunner_cn import HTMLTestRunner
 import os
 import time
-from common.send_mail import Send_mail
+from common.mail import Mail
 
 
-yag = Send_mail()
+yag = Mail()
 case_path = os.path.join(os.getcwd(),'case')
 report_path = os.path.join(os.getcwd(),'report')
 def all_case():
@@ -21,7 +21,7 @@ if __name__ == '__main__':
     runner = HTMLTestRunner(stream=fp,title='自动化测试报告',description='用例执行情况：')
     runner.run(all_case())
     fp.close()
-    yag.send_mail(filename)  #发送邮件
+    yag.send_mail(filename) #发送邮件
 
 
 

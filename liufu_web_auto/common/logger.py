@@ -50,3 +50,5 @@ if __name__ == "__main__":
     log = Log()
     log.info("--测试开始--")
     log.warning('--测试结束--')
+    log.debug("11111")
+    log.error("4444")

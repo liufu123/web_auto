@@ -17,7 +17,7 @@ class Read_ini():
 
 if __name__ == '__main__':
     ct = Read_ini()
-    s = ct.get_value('mail_account','user')
-    g = ct.get_value('mail_account','psw')
+    s = ct.get_value('Mail_account','user')
+    g = ct.get_value('Mail_account','psw')
     print(s)
     print(g)
