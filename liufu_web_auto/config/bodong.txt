@@ -1,0 +1,11 @@
+[Mail_account]
+user = 13265861735@163.com
+psw = lfjj0918
+
+[Bodong_account]
+user = 2500000095
+psw = 456789
+
+[Zendao_account]
+user = admin
+psw = 123456

@@ -5,7 +5,7 @@ from pages.bodong_home_page import Bongdong_home
 from pages.bodong_details_page import Bodong_Details
 from pages.bodong_video_details_page import Bodong_video_details
 import time
-bodong_url = "https://boodo.qq.com/"
+url = "https://boodo.qq.com/"
 class Bodong(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -14,7 +14,7 @@ class Bodong(unittest.TestCase):
         cls.bodong_home = Bongdong_home(cls.driver)
         cls.bodong_details = Bodong_Details(cls.driver)
         cls.bodong_video_details = Bodong_video_details(cls.driver)
-        cls.driver.get(bodong_url)
+        cls.driver.get(url)
         cls.driver.maximize_window()
 
     @classmethod

@@ -3,7 +3,6 @@ import time
 import os
 
 log_path = os.path.dirname(os.path.abspath('.')) + '/report'
-print(log_path)
 
 class Log():
     def __init__(self):

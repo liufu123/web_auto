@@ -2,6 +2,7 @@ from common.base import Base
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
+from common.read_ini import Read_ini
 zendao_url = "http://127.0.0.1/zentao/user-login-L3plbnRhby8=.html"
 class Zendao_Login(Base):
     loc_login_username = (By.ID,"account")
@@ -10,12 +11,15 @@ class Zendao_Login(Base):
     loc_login_button = (By.CSS_SELECTOR,"#submit")
     loc_forget_psw = (By.LINK_TEXT,"忘记密码")
     loc_name = (By.CSS_SELECTOR,"#topnav>a:nth-child(2)")
+    config = Read_ini()
+    zd_username = config.get_value('Zendao_account', 'user')
+    zd_psw = config.get_value('Zendao_account', 'psw')
 
 
-    def input_username(self,username="admin"):
+    def input_username(self,username=zd_username):
         self.sendKeys(self.loc_login_username,username)
 
-    def input_psw(self,psw='123456'):
+    def input_psw(self,psw=zd_psw):
         self.sendKeys(self.loc_login_psw,psw)
 
     def keep_login(self):
