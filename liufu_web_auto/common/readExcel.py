@@ -25,7 +25,8 @@ class Excel_read():
 
 if __name__=="__main__":
     file = "testdata.xlsx"
-    report_path = 'E:\liufu-selenium\common'
-    file_name = os.path.join(report_path, file)
-    a = Excel_read(file_name)
-    print(a.dict_data())
+    report_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+    file_name = os.path.join(report_path, 'common', file)
+    print(file_name)
+    test_data = Excel_read(file_name)
+    print(test_data.dict_data())

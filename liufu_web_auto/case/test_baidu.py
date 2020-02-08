@@ -4,6 +4,9 @@ import time
 from common.base import Base
 from selenium.webdriver.common.by import By
 from common.logger import Log
+import ddt
+from common.readExcel import Excel_read
+import os
 from selenium.webdriver.support.wait import WebDriverWait
 c1 = {u'domain': u'.baidu.com',
       u'expiry': 1819811365.73916,
@@ -27,7 +30,25 @@ c3 = {u'domain': u'www.baidu.com',
                    u'path': u'/',
                    u'secure': False,
                    u'value': u'1'}
+
+pro_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+file_name = os.path.join(pro_path, 'common',"testdata.xlsx")
+data = Excel_read(file_name)
+testdatas = data.dict_data()
+print(testdatas)
+
+@ddt.ddt
 class Baidu(unittest.TestCase):
+    loc1 = (By.ID, 'kw')
+    loc2 = (By.ID, 'su')
+
+    def baidu_search(self,content,result):
+        self.a.sendKeys(self.loc1,content)
+        self.a.click(self.loc2)
+        time.sleep(3)
+        title = self.driver.title
+        self.assertEqual(title,result)
+        self.a.clear(self.loc1)
 
     @classmethod
     def setUpClass(cls):
@@ -74,20 +95,10 @@ class Baidu(unittest.TestCase):
         self.a.click(self.video)
         self.driver.switch_to.window(self.windows)
 
-    def test_03(self):
+    @ddt.data(*testdatas)
+    def test_03(self,data):
         '''输入内容点击搜索'''
-        self.loc1 = (By.ID,'kw')
-        self.loc2 = (By.ID,'su')
-        self.a.sendKeys(self.loc1,'python')
-        self.a.click(self.loc2)
-        time.sleep(3)
-        self.title = self.driver.title
-        try:
-            self.assertEqual(self.title, u'python_百度搜索')
-            print('搜索成功')
-        except:
-            print(self.title)
-            print('搜索内容不符合预期')
+        self.baidu_search(data["content"],data["result"])
 
 if __name__ == '__main__':
     unittest.main()
