@@ -5,6 +5,7 @@ from pages.bodong_home_page import Bongdong_home
 from pages.bodong_details_page import Bodong_Details
 from pages.bodong_video_details_page import Bodong_video_details
 import time
+from common.logger import Log
 url = "https://boodo.qq.com/"
 class Bodong(unittest.TestCase):
     @classmethod
@@ -14,6 +15,7 @@ class Bodong(unittest.TestCase):
         cls.bodong_home = Bongdong_home(cls.driver)
         cls.bodong_details = Bodong_Details(cls.driver)
         cls.bodong_video_details = Bodong_video_details(cls.driver)
+        cls.log = Log()
         cls.driver.get(url)
         cls.driver.maximize_window()
 
@@ -33,15 +35,21 @@ class Bodong(unittest.TestCase):
 
     def test_01(self):
         '''登录波洞'''
+        self.log.info("开始登录波洞")
         self.bodong.login()
         time.sleep(5)
+        self.log.info("获取登录用户名")
         ele = self.bodong.get_name()
+        self.log.info("获取的用户名：%s"%ele)
         self.assertTrue(ele == "用户b")
 
     def test_02(self):
         '''搜索'''
+        self.log.info("开始搜索：狐妖小红娘")
         self.bodong_home.search()
+        self.log.info("获取标题")
         re = self.sw_window_get_title("狐妖小红娘搜索结果 - 波洞星球boodo")
+        self.log.info("获取的标题：%s" % re)
         self.assertTrue(re)
 
     def test_03(self):

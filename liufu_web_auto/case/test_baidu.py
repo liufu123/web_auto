@@ -3,6 +3,7 @@ import unittest
 import time
 from common.base import Base
 from selenium.webdriver.common.by import By
+from common.logger import Log
 from selenium.webdriver.support.wait import WebDriverWait
 c1 = {u'domain': u'.baidu.com',
       u'expiry': 1819811365.73916,
@@ -33,6 +34,7 @@ class Baidu(unittest.TestCase):
          cls.driver = webdriver.Chrome()
          cls.driver.get('http://www.baidu.com')
          cls.a = Base(cls.driver)
+         cls.log = Log()
          cls.driver.maximize_window()
          cls.windows = cls.driver.current_window_handle
     @classmethod
@@ -41,11 +43,15 @@ class Baidu(unittest.TestCase):
 
     def test_01(self):
         '''登录百度'''
+        self.log.info("添加cookie1")
         self.driver.add_cookie(c1)
+        self.log.info("添加cookie2")
         self.driver.add_cookie(c2)
+        self.log.info("添加cookie3")
         self.driver.add_cookie(c3)
         time.sleep(3)
         self.driver.refresh()
+        self.log.info("开始登录操作")
         try:
             self.text = self.driver.find_element_by_xpath('//*[@id="s_username_top"]/span').text
             if self.text == u'金号角上架':
