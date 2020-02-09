@@ -35,12 +35,15 @@ pro_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 file_name = os.path.join(pro_path, 'common',"testdata.xlsx")
 data = Excel_read(file_name)
 testdatas = data.dict_data()
-print(testdatas)
 
 @ddt.ddt
 class Baidu(unittest.TestCase):
     loc1 = (By.ID, 'kw')
     loc2 = (By.ID, 'su')
+    news = (By.XPATH, '//*[@id="u_sp"]/a[1]')  # 点击新闻
+    hao123 = (By.XPATH, '//*[@id="u_sp"]/a[2]')  # 点击hao123
+    map = (By.XPATH, '//*[@id="u_sp"]/a[3]')  # 点击地图
+    video = (By.XPATH, '//*[@id="u_sp"]/a[4]')  # 点击视频
 
     def baidu_search(self,content,result):
         self.a.sendKeys(self.loc1,content)
@@ -82,10 +85,6 @@ class Baidu(unittest.TestCase):
 
     def test_02(self):
         '''点击导航栏'''
-        self.news = (By.XPATH,'//*[@id="u_sp"]/a[1]')#点击新闻
-        self.hao123 = (By.XPATH,'//*[@id="u_sp"]/a[2]')#点击hao123
-        self.map = (By.XPATH,'//*[@id="u_sp"]/a[3]')#点击地图
-        self.video =(By.XPATH,'//*[@id="u_sp"]/a[4]')#点击视频
         self.a.click(self.news)
         self.driver.switch_to.window(self.windows)
         self.a.click(self.hao123)

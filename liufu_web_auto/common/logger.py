@@ -2,11 +2,12 @@ import logging
 import time
 import os
 
-# log_path = os.path.dirname(os.path.abspath('.')) + '/report'
-# print(log_path)
+pro_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+file_name = os.path.join(pro_path, 'report')
 class Log():
     def __init__(self):
-        self.logname = os.path.join("E:\github1\liufu_web_auto/report",'%s.log'%time.strftime('%Y-%m-%d'))
+        # self.logname = os.path.join("E:\github1\liufu_web_auto/report",'%s.log'%time.strftime('%Y-%m-%d'))
+        self.logname = os.path.join(file_name,'%s.log'%time.strftime('%Y-%m-%d'))
         self.logger = logging.getLogger()
         self.logger.setLevel(logging.DEBUG)
         self.formatter = logging.Formatter('%(asctime)s - %(filename)s -  %(levelname)s:%(message)s')

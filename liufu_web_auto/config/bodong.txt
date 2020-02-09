@@ -1,10 +1,11 @@
 [Mail_account]
-user = 13265861735@163.com
-psw = lfjj0918
+user = liufu_test@163.com
+psw = abc123456789
+receive_user = 527535141@qq.com
 
 [Bodong_account]
-user = 2500000095
-psw = 456789
+user = 437528719
+psw = abc123456
 
 [Zendao_account]
 user = admin

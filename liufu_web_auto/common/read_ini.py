@@ -3,8 +3,8 @@ import os
 class Read_ini():
     def __init__(self,file_name=""):
         if file_name == "":
-            # file_name = os.path.dirname(os.path.abspath('.')) + '/config/bodong.txt'
-            file_name = "E:\github1\liufu_web_auto/config/bodong.txt"
+            pro_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+            file_name = os.path.join(pro_path, 'config', "bodong.txt")
         self.ct = self.loading_ini(file_name)
 
     def loading_ini(self,file_name):

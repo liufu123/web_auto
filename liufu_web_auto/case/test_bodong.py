@@ -41,7 +41,7 @@ class Bodong(unittest.TestCase):
         self.log.info("获取登录用户名")
         ele = self.bodong.get_name()
         self.log.info("获取的用户名：%s"%ele)
-        self.assertTrue(ele == "用户b")
+        self.assertTrue(ele == "liufu_test")
 
     def test_02(self):
         '''搜索'''
